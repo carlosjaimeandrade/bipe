@@ -23,3 +23,8 @@
     padding: 4px 8px;
     cursor: pointer;
 }
+
+.card-body{
+    height: 400px;
+    overflow: auto;
+}

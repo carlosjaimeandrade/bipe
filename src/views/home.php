@@ -2,7 +2,7 @@
     <div class="container">
 
 
-        <div class="card mt-5">
+        <div class="card mt-2">
             <div class="card-header">
                 <h5>Localize os dados</h5>
             </div>
