@@ -24,7 +24,7 @@
     cursor: pointer;
 }
 
-.card-body{
-    height: 400px;
+.overflow-content{
+    height: 300px;
     overflow: auto;
 }
