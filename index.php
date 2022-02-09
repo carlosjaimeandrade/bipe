@@ -34,8 +34,13 @@ $class = "\\src\\Controllers\\" . $controller;
 
 if (class_exists($class)) {
     $active = new $class;
+}else{
+    echo "Pagina não encontrada erro 404";
+    exit();
 }
 
 if (method_exists($active, $metodo)) {
     $active->$metodo();
+}else{
+    echo "Pagina não encontrada erro 404";
 }
